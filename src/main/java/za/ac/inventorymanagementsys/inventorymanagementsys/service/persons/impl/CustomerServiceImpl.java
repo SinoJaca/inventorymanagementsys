@@ -6,9 +6,10 @@
 package za.ac.inventorymanagementsys.inventorymanagementsys.service.persons.impl;
 
 import org.springframework.stereotype.Service;
-import za.ac.inventorymanagementsys.inventorymanagementsys.Model.persons.CustomerDtoUpdate;
-import za.ac.inventorymanagementsys.inventorymanagementsys.Model.persons.CustomerModel;
+
 import za.ac.inventorymanagementsys.inventorymanagementsys.domain.persons.Customer;
+import za.ac.inventorymanagementsys.inventorymanagementsys.model.persons.CustomerDtoUpdate;
+import za.ac.inventorymanagementsys.inventorymanagementsys.model.persons.CustomerModel;
 import za.ac.inventorymanagementsys.inventorymanagementsys.repository.persons.CustomerRepository;
 import za.ac.inventorymanagementsys.inventorymanagementsys.service.persons.CustomerService;
 import za.ac.inventorymanagementsys.inventorymanagementsys.util.Helper;

@@ -5,9 +5,10 @@
  */
 package za.ac.inventorymanagementsys.inventorymanagementsys.service.persons;
 
-import za.ac.inventorymanagementsys.inventorymanagementsys.Model.persons.CustomerDtoUpdate;
-import za.ac.inventorymanagementsys.inventorymanagementsys.Model.persons.CustomerModel;
+
 import za.ac.inventorymanagementsys.inventorymanagementsys.domain.persons.Customer;
+import za.ac.inventorymanagementsys.inventorymanagementsys.model.persons.CustomerDtoUpdate;
+import za.ac.inventorymanagementsys.inventorymanagementsys.model.persons.CustomerModel;
 
 import java.util.List;
 
