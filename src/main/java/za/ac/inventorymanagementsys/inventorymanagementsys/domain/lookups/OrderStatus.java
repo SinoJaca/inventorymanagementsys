@@ -7,6 +7,7 @@ import za.ac.inventorymanagementsys.inventorymanagementsys.domain.persons.Users;
 
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 
 @AllArgsConstructor
@@ -16,7 +17,7 @@ import java.util.List;
 @Builder
 @Table(name = "tOrderStatus")
 @NoArgsConstructor
-public class OrderStatus {
+public class  OrderStatus implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
